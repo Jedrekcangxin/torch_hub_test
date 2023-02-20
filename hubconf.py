@@ -20,5 +20,5 @@ def custom_model():
     """
     # initialize the model, load weights from path and returns model
     model = mlp.get_training_model()
-    model.load_state_dict(torch.load("model_wt.pth"))
+    model.load_state_dict(torch.load("output/model_wt.pth"))
     return model
